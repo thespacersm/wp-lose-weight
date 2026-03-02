@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "WP Lose Weight: Kitchenoo single image no backup",
+      "type": "python",
+      "request": "launch",
+      "python": "/Users/thespace/PycharmProjects/wp-lose-weight/.venv/bin/python",
+      "module": "wploseweight",
+      "cwd": "/Users/thespace/PycharmProjects/wp-lose-weight",
+      "console": "integratedTerminal",
+      "args": [
+        "project:optimize",
+        "--project-name",
+        "kitchenoo.it",
+        "--no-backup",
+        "--image-name",
+        "greenpan-contact-grill-elite-keramisch-rvs-768x768.png"
+      ]
+    }
+  ]
+}

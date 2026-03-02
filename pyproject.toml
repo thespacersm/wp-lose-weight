@@ -1,0 +1,15 @@
+[project]
+name = "wp-lose-weight"
+version = "0.1.0"
+description = "FTP WordPress uploads optimizer"
+requires-python = ">=3.10"
+dependencies = [
+    "click==8.3.1",
+    "injector==0.22.0",
+    "Pillow==11.3.0",
+    "pydantic==2.12.5",
+    "python-dotenv==1.2.1",
+]
+
+[project.scripts]
+wp-lose-weight = "wploseweight.cli:cli"
